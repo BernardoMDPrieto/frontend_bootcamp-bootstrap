@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body::befor{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
